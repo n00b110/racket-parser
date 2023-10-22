@@ -1,0 +1,14 @@
+#lang br
+
+(require "grammar.rkt" "tokenizer.rkt")
+(require brag/support)
+
+(define (parse-file file-name)
+  (define file-content (port->string (open-input-file file-name) #:close? #t))
+  
+  (with-handlers ([exn:fail? (lambda (exn)
+                               (displayln (exn-message exn)))])
+    (parse-to-datum (apply-tokenizer-maker make-tokenizer file-content)) ; keep gettng error with parse-to-datum, don't know what apart of brag lib
+    (display "Accept")))
+
+(parse-file "input5.txt")
