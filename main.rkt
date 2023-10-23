@@ -1,6 +1,6 @@
-#lang br
+#lang racket
 
-(require "grammar.rkt" "tokenizer.rkt")
+(require "parser.rkt" "tokenizer.rkt")
 (require brag/support)
 
 (define (parse-file file-name)
@@ -11,4 +11,4 @@
     (parse-to-datum (apply-tokenizer-maker make-tokenizer file-content)) ; keep gettng error with parse-to-datum, don't know what apart of brag lib
     (display "Accept")))
 
-(parse-file "input5.txt")
+(parse-file "Correct_1.txt")
