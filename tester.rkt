@@ -1,4 +1,5 @@
-#lang br
+#lang racket
+
 (require "parser.rkt" "tokenizer.rkt" brag/support)
 
 (define file-content (port->string (open-input-file "Correct_1.txt") #:close? #t))
