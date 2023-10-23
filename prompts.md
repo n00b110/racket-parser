@@ -1,6 +1,6 @@
 # Custom Language Parsing with Racket's `brag`
 
-This repository provides insights into using Racket's `brag` library for custom language parsing. Below is a series of questions and topics that have been discussed to guide this project.
+This repository provides insights into using Racket's `brag` library for custom language parsing. Below is a series of questions and topics I asked ChatGPT for information and advice about. 
 
 ## Table of Contents
 1. [Introduction to `racket/parser`](#introduction-to-racketparser)
