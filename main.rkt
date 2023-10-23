@@ -8,7 +8,7 @@
   
   (with-handlers ([exn:fail? (lambda (exn)
                                (displayln (exn-message exn)))])
-    (parse-to-datum (apply-tokenizer-maker make-tokenizer file-content)) ; keep gettng error with parse-to-datum, don't know what apart of brag lib
+    (parse-to-datum (apply-tokenizer-maker make-tokenizer file-content))
     (display "Accept")))
 
 (parse-file "Correct_1.txt")
