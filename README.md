@@ -4,7 +4,7 @@ This document lists and acknowledges the resources and references that were inst
 
 ## Tools and Platforms
 
-- **ChatGPT**: Utilized for various insights, guidance, and suggestions.
+- **[ChatGPT](chat.openai.com)**: Utilized for various insights, guidance, and suggestions.
 
 ## Repositories
 
